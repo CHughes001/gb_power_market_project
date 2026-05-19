@@ -1,0 +1,78 @@
+{
+  "name": "Callum Energy Analytics Theme",
+
+  "dataColors": [
+    "#fb8b24",
+    "#0f4c5c",
+    "#5f0f40",
+    "#e36414",
+    "#9a031e"
+  ],
+
+  "background": "#F7F9FB",
+  "foreground": "#1F2937",
+  "tableAccent": "#0f4c5c",
+
+  "textClasses": {
+    "title": { "fontSize": 24 },
+    "header": { "fontSize": 14 }
+  },
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "color": { "solid": { "color": "#1F2937" } },
+            "fontSize": 12
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1F2937" } },
+            "fontSize": 11
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#6B7280" } },
+            "fontSize": 11
+          }
+        ],
+        "valueLabels": [
+          {
+            "color": { "solid": { "color": "#1F2937" } },
+            "fontSize": 11
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#F7F9FB" } }
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#E5EAF0" } }
+          }
+        ]
+      }
+    },
+
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#6B7280" } },
+            "fontSize": 12
+          }
+        ],
+        "values": [
+          {
+            "color": { "solid": { "color": "#1F2937" } },
+            "fontSize": 38
+          }
+        ]
+      }
+    }
+  }
+}
